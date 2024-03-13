@@ -1,0 +1,20 @@
+{
+  "compilerOptions": { // об'єкт налаштувань
+    "rootDir": "./src", // звідки TypeScript буде брати файли, які потім буде перетворювати в JavaScript
+    "outDir": "./dist", // куди проект буде зберігати перетворені чисті JavaScript файли
+    "allowJs": false, // 
+    "allowSyntheticDefaultImports": true, //
+    "emitDecoratorMetadata": true, //
+    "esModuleInterop": true, //
+    "experimentalDecorators": true, //
+    "lib": ["dom", "ES2021"], //
+    "module": "es2020", // стандарт модулів після 2020 року
+    "moduleResolution": "node", //
+    "preserveConstEnums": true, //
+    "skipLibCheck": true, //
+    "strictNullChecks": true, //
+    "target": "es2019", // буде слідкувати, щоб використ синтаксис JavaScript після 2019 року
+    "sourceMap": true
+  },
+  "include": ["**/*.ts"]
+}
